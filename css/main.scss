@@ -1,0 +1,70 @@
+@import "scss/bootstrap";
+$black: #000000;
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+// *{
+//     border: 1px solid red;
+// }
+
+h1,h2,h3,h4,h5,h6,ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.d_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align_center{
+    align-items: center;
+}
+
+.align_start{
+    align-items: flex-start;
+}
+
+.align_centr{
+    align-items: center;
+}
+
+.just_center{
+    justify-content: center;
+}
+
+.spac_centr{
+    justify-content: space-between;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem .75rem;
+    color: $black;
+    text-transform: capitalize;
+
+}
+
+.opc_n{
+    // opacity: 0;
+}
+
+
+.hero{
+    text-align: center;
+    height: 100vh;
+    .hero_heading{
+        font-size: calc(3rem + 1vw);
+        text-transform: uppercase;
+        font-weight: bold;
+    }   
+}
+
